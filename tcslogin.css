@@ -1,0 +1,181 @@
+body{
+	/* background-color:rgb(7, 41, 102);*/
+	background-color: black;
+	margin-left: 60px;
+	margin-right: 30px;
+}
+.mobscr{
+	display: none;
+}
+.box{
+	display: flex;
+	margin-left: 84px;
+	margin-top: 5px;
+}
+h2{
+	color: white;
+    text-align: center;
+	margin-top: 50px;
+}
+.Container{
+     width: 400px;
+	 height: 380px;
+	 background-color: white;
+}
+h3{
+	font-size: 20px;
+	margin: 20px 20px 10px 60px;
+}
+input{
+	width: 280px;
+	height: 25px;
+	background-color: rgb(223, 214, 214);
+	border: none;
+	margin: 10px 20px 20px 45px;
+}
+input:focus{
+	width: 280px;
+	height: 25px;
+	background-color: white;
+	border: none;
+	margin: 10px 20px 20px 45px;
+}
+button{
+	width: 280px;
+	height: 25px;
+	background-color: greenyellow;
+	border: none;
+	cursor: pointer;
+	margin: 10px 20px 10px 45px;
+}
+button:hover{
+	width: 280px;
+	height: 25px;
+	background-color:yellow;
+	border: none;
+	margin: 10px 20px 10px 45px;
+}
+p{
+	margin: 10px 20px 10px 45px;
+	font-size: 18px;
+}
+.p1{
+	margin: 10px 20px 10px 63px;
+	font-size: 15px;
+}
+h1{
+	margin: 100px 20px 10px 60px;
+	font-size: 23px;
+	color: white;
+}
+a{
+	color: yellow;
+	font-size: 20px;
+}
+.p2{
+	color: white;
+	font-size: 15px;
+	margin-left: 70px;
+}
+.a1{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+h6{
+	background-color:rgb(223, 214, 214); 
+	width: 35px; 
+	height: 35px; 
+	border-radius: 50px;
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 385px;
+	align-items: center;
+}
+.or{
+	margin-left: 5px;
+	font-size: 15px;
+}
+.h0{
+	font-size: 25px;
+	color: white;
+	margin-left: 120px;
+	margin-bottom: 0;
+}
+/* 
+Mobile Device : min-width:320px,max-width:480px;
+tablet Device : min-width:481px,max-width:768px;
+laptop Device : min-width:769px,max-width:1023px;
+Desktop Device : min-width:1024px,max-width:1200px;
+*/
+
+@media screen and (max-width:485px) {
+	body{
+		background-color: green;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.mobscr{
+		display: inline;
+		background-color: green;
+		width: 280px;
+		height: 300px;
+		
+	}
+	.mobhe{
+		font-size: 18px;
+		color: greenyellow;
+		text-align: center;
+	}
+	.mobhe span{
+		font-size: 18px;
+		color: white;
+	}
+	h3{
+		font-size: 15px;
+		color: white;
+		text-align: center;
+	}
+	.box{
+		display: none;
+	}
+	h2{
+		display: none;
+	}	
+}
+/* 
+tablet Device : min-width:481px,max-width:768px;
+*/
+@media screen and (max-width:970px) {
+	body{
+		background-color: green;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.mobscr{
+		display: inline;
+		background-color: green;
+		width: 450px;
+		height: 450px;
+	}
+	.mobhe{
+		font-size: 25px;
+		color: greenyellow;
+		text-align: center;
+	}
+	.mobhe span{
+		font-size: 25px;
+		color: white;
+	}
+	h3{
+		font-size: 20px;
+		color: white;
+		text-align: center;
+	}
+	.box{
+		display: none;
+	}
+	h2{
+		display: none;
+	}	
+}
